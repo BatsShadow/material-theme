@@ -1096,6 +1096,17 @@ meta.property-value support.constant.named-color.css</string>
         <string>#FFEB95</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.header</string>
+      <key>scope</key>
+      <string>meta.diff, meta.diff.header</string>
+      <key>settings</key>
+      <dict>
+      	<key>foreground</key>
+      	<string>#78ccf0ff</string>
+      </dict>
+    </dict>
   </array>
   <key>uuid</key>
   <string>4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC</string>
