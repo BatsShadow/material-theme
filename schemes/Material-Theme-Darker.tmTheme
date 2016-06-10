@@ -47,7 +47,8 @@
         <key>lineHighlight</key>
         <string>#00000030</string>
         <key>selection</key>
-        <string>#61616140</string>
+        <string>#61616190</string>
+        <!-- <string>#61616140</string> -->
         <key>selectionBorder</key>
         <string>#4F4F4F</string>
         <key>shadow</key>
