@@ -1,5 +1,15 @@
 [
- 
+
+/* @WINDOW
+ * Style for window title bar
+========================================================================= */
+
+  {
+    "class": "title_bar",
+    "fg": [215, 218, 224],
+    "bg": [50, 50, 50]
+  },
+
 /* @EMPTY WINDOW
  * Style for empty (no tabs) window
 ========================================================================= */
@@ -863,7 +873,8 @@
 
   {
     "class": "scroll_bar_control",
-    "layer0.texture": "Material Theme/assets/darker/normal_bar_vertical.png",
+    // "layer0.texture": "Material Theme/assets/darker/normal_bar_vertical.png",
+    "layer0.tint": [33, 33, 33, 1.0],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 6],
     "blur": false
@@ -4449,5 +4460,5 @@ NOTE: This rulers must only override the original definitions */
   }
 
 
- 
+
 ]
